@@ -1,0 +1,32 @@
+.fakestore-card {
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    padding: 12px;
+    background: #fff;
+}
+
+.fakestore-card__row {
+    display: flex;
+    gap: 12px;
+}
+
+.fakestore-card__img {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+}
+
+.fakestore-card__title {
+    margin: 0 0 8px;
+    font-size: 18px;
+}
+
+.fakestore-card__meta {
+    margin: 0 0 8px;
+    color: #50575e;
+}
+
+.fakestore-card__desc {
+    margin: 0;
+    color: #1d2327;
+}
